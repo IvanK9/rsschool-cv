@@ -118,7 +118,8 @@ body {
 
 .contacts__block,
 .skills,
-.experience__block {
+.experience__block,
+.language__block {
     width: 60%;
     padding: 10px 15px;
     margin-bottom: 50px;
@@ -148,7 +149,8 @@ body {
 }
 
 .about__block,
-.code__block {
+.code__block,
+.education__block {
     margin-left: auto;
     width: 60%;
     padding: 10px 15px;
@@ -184,4 +186,43 @@ body {
 .experience__item {
     font-size: 20px;
     line-height: 1.5;
+}
+
+.education__item {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.language__block {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: rgb(208, 19, 233);;
+}
+
+.footer__list {
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.footer__link {
+    transition: color 0.5s ease-in-out;
+}
+
+.footer__link-hover:hover {
+    color: aqua;
+}
+
+.footer__logo {
+    width: 100px;
+
 }
